@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets (keep the template, ignore the real files)
+.env
+.env.*
+!.env.example
+
+# Logs and archives
+*.log
+*.zip
+
+# Git internals
+.git/
